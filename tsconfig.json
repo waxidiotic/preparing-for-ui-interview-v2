@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@course/styles": ["src/utilities/styles.module.css"],
       "@course/cx": ["src/utilities/utility.ts"],
