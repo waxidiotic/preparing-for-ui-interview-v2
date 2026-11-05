@@ -1,5 +1,7 @@
 import homepage from './public/index.html'
 
+declare const Bun: any
+
 Bun.serve({
   routes: {
     '/': homepage,
